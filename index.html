@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADVENTURE</title>
+    <link rel="preload" href="background.png" as="image" fetchpriority="high" />
+    <link rel="preload" href="foreground.png" as="image" fetchpriority="high" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar" id="navbar">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">⛰️</span>
+        <span class="logo-text">ADVENTURE</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#activities" class="nav-link">Activities</a></li>
+        <li><a href="#biking" class="nav-link">Biking</a></li>
+        <li><a href="#paragliding" class="nav-link">Paragliding</a></li>
+        <li><a href="#surfing" class="nav-link">Surfing</a></li>
+      </ul>
+      <a href="#" class="nav-cta">Book Now</a>
+    </nav>
+
+    <main id="parallax-wrapper">
+      <header class="parallax-hero">
+        <img
+          src="background.png"
+          alt="Majestic mountain peaks at golden hour"
+          class="parallax-layer parallax-layer--back"
+          fetchpriority="high"
+          decoding="async"
+        />
+        <img
+          src="foreground.png"
+          alt="Silhouette of adventurer conquering the summit"
+          class="parallax-layer parallax-layer--front"
+          fetchpriority="high"
+          decoding="async"
+        />
+
+        <div class="hero-content">
+          <p class="hero-eyebrow">— EXPERIENCE THE EXTRAORDINARY —</p>
+          <h1 class="hero-title">
+            <span class="title-line">Push Your</span>
+            <span class="title-line title-accent">Limits</span>
+          </h1>
+          <p class="hero-subtitle">
+            Discover breathtaking adventures that transform the way you see the
+            world. From mountain peaks to ocean waves.
+          </p>
+          <div class="hero-actions">
+            <a href="#activities" class="btn btn-primary">
+              <span>Explore Activities</span>
+              <svg
+                class="btn-arrow"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="#about" class="btn btn-ghost">Learn More</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="section section--intro" id="about">
+        <div class="section-container">
+          <div class="intro-grid">
+            <div class="intro-content">
+              <span class="section-label">Who We Are</span>
+              <h2 class="section-heading">
+                Adventure is Our <em>Language</em>
+              </h2>
+              <p class="section-text">
+                For over a decade, we've been crafting unforgettable outdoor
+                experiences that challenge, inspire, and transform. Our expert
+                guides and world-class equipment ensure every adventure is as
+                safe as it is exhilarating.
+              </p>
+              <p class="section-text">
+                Whether you're a seasoned thrill-seeker or taking your first
+                steps into the wild, we have the perfect adventure waiting for
+                you. Join thousands who've discovered that the best stories
+                begin where your comfort zone ends.
+              </p>
+            </div>
+            <div class="intro-stats">
+              <div class="stat-card">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">1K+</span>
+                <span class="stat-label">Happy Adventurers</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Safety Record</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Destinations</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--activities" id="activities">
+        <div class="section-container">
+          <span class="section-label section-label--center">What We Offer</span>
+          <h2 class="section-heading section-heading--center">
+            Choose Your <em>Adventure</em>
+          </h2>
+        </div>
+
+        <article class="activity" id="biking">
+          <div class="activity-image activity-image--biking">
+            <div class="activity-overlay">
+              <span class="activity-number">01</span>
+            </div>
+            <h3 class="activity-title">
+              <span class="activity-title-bg">Mountain Biking</span>
+            </h3>
+          </div>
+          <div class="activity-content">
+            <div class="activity-details">
+              <span class="activity-tag">Adrenaline Rush</span>
+              <span class="activity-tag">All Skill Levels</span>
+            </div>
+            <h4 class="activity-subtitle">Conquer Every Trail</h4>
+            <p class="section-text">
+              Feel the rush of wind against your face as you navigate
+              challenging terrain through ancient forests and mountain peaks.
+              Our curated trails range from beginner-friendly paths to
+              expert-level descents that will test your limits.
+            </p>
+            <p class="section-text">
+              With premium bikes and safety gear provided, all you need to bring
+              is your sense of adventure. Our certified guides know every twist
+              and turn, ensuring you experience the thrill while staying
+              completely safe.
+            </p>
+            <div class="activity-meta">
+              <div class="meta-item">
+                <span class="meta-text">3-6 Hours</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-text">Mountain Trails</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-text">Moderate-Hard</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="activity activity--reverse" id="paragliding">
+          <div class="activity-image activity-image--paragliding">
+            <div class="activity-overlay">
+              <span class="activity-number">02</span>
+            </div>
+            <h3 class="activity-title">
+              <span class="activity-title-bg">Paragliding</span>
+            </h3>
+          </div>
+          <div class="activity-content">
+            <div class="activity-details">
+              <span class="activity-tag">Bird's Eye View</span>
+              <span class="activity-tag">Breathtaking</span>
+            </div>
+            <h4 class="activity-subtitle">Touch the Sky</h4>
+            <p class="section-text">
+              Experience the world from a perspective few ever witness. Soar
+              above stunning landscapes, feeling the thermal currents lift you
+              higher as the world transforms into a living map beneath your
+              feet.
+            </p>
+            <p class="section-text">
+              Our tandem flights are perfect for first-timers, with experienced
+              pilots handling everything while you take in the breathtaking
+              panoramas. For the certified, we offer solo adventures across some
+              of the world's most spectacular flying sites.
+            </p>
+            <div class="activity-meta">
+              <div class="meta-item">
+                <span class="meta-text">30-90 Minutes</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-text">Valley Cliffs</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-text">All Levels</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="activity" id="surfing">
+          <div class="activity-image activity-image--surfing">
+            <div class="activity-overlay">
+              <span class="activity-number">03</span>
+            </div>
+            <h3 class="activity-title">
+              <span class="activity-title-bg">Surfing</span>
+            </h3>
+          </div>
+          <div class="activity-content">
+            <div class="activity-details">
+              <span class="activity-tag">Ocean Freedom</span>
+              <span class="activity-tag">Pure Bliss</span>
+            </div>
+            <h4 class="activity-subtitle">Ride the Waves</h4>
+            <p class="section-text">
+              There's nothing quite like the feeling of catching your first wave
+              — that moment of pure connection with the ocean's raw power. From
+              gentle beach breaks to challenging point breaks, we'll find your
+              perfect wave.
+            </p>
+            <p class="section-text">
+              Our surf camps cater to complete beginners and seasoned riders
+              alike. With warm waters, consistent swells, and patient
+              instructors, you'll be standing tall on your board before you know
+              it. The ocean is calling — will you answer?
+            </p>
+            <div class="activity-meta">
+              <div class="meta-item">
+                <span class="meta-text">Half/Full Day</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-text">Coastal Beaches</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-text">All Levels</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section section--cta" id="contact">
+        <div class="cta-background"></div>
+        <div class="section-container cta-container">
+          <span class="section-label section-label--center section-label--light"
+            >Ready?</span
+          >
+          <h2
+            class="section-heading section-heading--center section-heading--light"
+          >
+            Start Your <em>Adventure</em> Today
+          </h2>
+          <p class="section-text section-text--center section-text--light">
+            Life begins at the edge of your comfort zone. Take the first step
+            toward experiences that will stay with you forever.
+          </p>
+          <div class="cta-actions">
+            <a href="#" class="btn btn-primary btn-large">
+              <span>Book Your Experience</span>
+              <svg
+                class="btn-arrow"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+          <div class="cta-trust">
+            <span class="trust-item">✓ Free cancellation up to 48h</span>
+            <span class="trust-item">✓ Expert guides included</span>
+            <span class="trust-item">✓ All equipment provided</span>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <span class="logo-icon">⛰️</span>
+            <span class="logo-text">ADVENTURE</span>
+            <p class="footer-tagline">Push your limits. Find yourself.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h5 class="footer-heading">Activities</h5>
+              <a href="#biking">Mountain Biking</a>
+              <a href="#paragliding">Paragliding</a>
+              <a href="#surfing">Surfing</a>
+            </div>
+            <div class="footer-map">
+              <h5 class="footer-heading">Find Us</h5>
+              <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=72.81%2C18.92%2C72.84%2C18.95&layer=mapnik&marker=18.935%2C72.827"
+                class="map-embed"
+                loading="lazy"
+                title="Our Location - Churchgate, Mumbai"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 Adventure Co. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      (function () {
+        const isTouchDevice =
+          "ontouchstart" in window || navigator.maxTouchPoints > 0;
+        if (isTouchDevice)
+          document.documentElement.classList.add("touch-device");
+
+        const prefersReducedMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)"
+        ).matches;
+        if (prefersReducedMotion) {
+          document.documentElement.classList.add("reduced-motion");
+        }
+
+        const navbar = document.getElementById("navbar");
+        const parallaxWrapper = document.getElementById("parallax-wrapper");
+
+        let parallaxElements = [];
+
+        if (!prefersReducedMotion && !isTouchDevice) {
+          document.querySelectorAll(".section-heading").forEach((el) => {
+            parallaxElements.push({ el, speed: 0.1, baseTransform: "" });
+          });
+
+          document.querySelectorAll(".stat-card").forEach((el, index) => {
+            parallaxElements.push({
+              el,
+              speed: 0.05 + index * 0.02,
+              baseTransform: "",
+            });
+          });
+
+          document.querySelectorAll(".activity-image").forEach((el) => {
+            parallaxElements.push({ el, speed: 0.08, baseTransform: "" });
+          });
+        }
+
+        let lastScrollTop = 0;
+        let ticking = false;
+
+        function updateParallax() {
+          const scrollTop = parallaxWrapper.scrollTop;
+          const windowHeight = window.innerHeight;
+          const windowCenter = windowHeight / 2;
+
+          if (scrollTop > 100) {
+            navbar.classList.add("navbar--scrolled");
+          } else {
+            navbar.classList.remove("navbar--scrolled");
+          }
+
+          if (parallaxElements.length > 0) {
+            parallaxElements.forEach((item) => {
+              const rect = item.el.getBoundingClientRect();
+
+              if (rect.top < windowHeight + 100 && rect.bottom > -100) {
+                const distanceFromCenter =
+                  rect.top + rect.height / 2 - windowCenter;
+
+                const translateY = distanceFromCenter * item.speed;
+                item.el.style.transform = `translate3d(0, ${translateY}px, 0)`;
+              }
+            });
+          }
+
+          ticking = false;
+        }
+
+        parallaxWrapper.addEventListener(
+          "scroll",
+          function () {
+            lastScrollTop = this.scrollTop;
+            if (!ticking) {
+              window.requestAnimationFrame(updateParallax);
+              ticking = true;
+            }
+          },
+          { passive: true }
+        );
+
+        updateParallax();
+
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute("href"));
+            if (target) {
+              target.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          });
+        });
+
+        const observerOptions = {
+          root: parallaxWrapper,
+          threshold: 0.1,
+          rootMargin: "0px 0px -50px 0px",
+        };
+
+        const fadeObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+            }
+          });
+        }, observerOptions);
+
+        document
+          .querySelectorAll(".activity, .stat-card, .intro-content")
+          .forEach((el) => {
+            el.classList.add("fade-in-up");
+            fadeObserver.observe(el);
+          });
+      })();
+    </script>
+  </body>
+</html>
