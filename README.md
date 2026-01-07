@@ -111,7 +111,8 @@ adventure-parallax/
 ├── biking.jpg              # Mountain biking activity image
 ├── para gliding.jpg        # Paragliding activity image
 ├── surfing.jpg             # Surfing activity image
-├── License
+├── LICENSE                 # License
+│
 ├── screenshot.png          # Hero section preview
 ├── screenshot-about.png    # About section preview
 ├── screenshot-biking.png   # Mountain biking preview
