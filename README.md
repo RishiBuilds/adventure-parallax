@@ -55,9 +55,6 @@ A stunning, immersive parallax landing page for adventure travel and outdoor act
 
 - **Multi-layer Parallax Effect** — Immersive depth with background and foreground layers that respond to scroll
 - **Smooth Scroll Animations** — Elements gracefully fade and slide into view using Intersection Observer
-- **Responsive Design** — Looks stunning on desktop, tablet, and mobile devices
-- **Performance Optimized** — Uses `requestAnimationFrame`, passive event listeners, and CSS `will-change` for 60fps scrolling
-- **Accessibility Aware** — Respects `prefers-reduced-motion` for users who prefer minimal animations
 - **Touch Device Support** — Gracefully adapts parallax behavior for touch screens
 - **Modern Typography** — Google Fonts (Outfit & Space Grotesk) for a premium feel
 - **Zero Dependencies** — Pure vanilla HTML, CSS, and JavaScript
@@ -111,7 +108,7 @@ adventure-parallax/
 ├── biking.jpg              # Mountain biking activity image
 ├── para gliding.jpg        # Paragliding activity image
 ├── surfing.jpg             # Surfing activity image
-├── LICENSE                 # License
+├── LICENSE                 # License 
 │
 ├── screenshot.png          # Hero section preview
 ├── screenshot-about.png    # About section preview
